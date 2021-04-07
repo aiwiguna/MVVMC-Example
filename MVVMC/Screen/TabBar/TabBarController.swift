@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabBarController: UITabBarController, UITabBarControllerDelegate{
+class TabBarController: UITabBarController {
 	let button1: UITabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 0)
 	let button2: UITabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 1)
 }
